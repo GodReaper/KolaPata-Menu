@@ -29,24 +29,26 @@ export default function RestroMenu() {
           {menuCategories.map((category, index) => (
             <div key={index} id={`category-${index}`} className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">{category.name}</h2>
-              {category.items.map((item, itemIndex) => (
-                <div key={itemIndex} className="flex items-center mb-4 bg-white rounded-lg shadow-sm overflow-hidden">
-                  <div className="w-20 h-20 flex-shrink-0">
-                    <Image
-                      src={item.image}
-                      alt={item.name}
-                      width={80}
-                      height={80}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <div className="flex-grow p-4">
-                    <div className="flex justify-between items-center">
-                      <span className="font-medium">{item.name}</span>
-                      <span className="text-gray-600">₹{item.price.toFixed(2)}</span>
+              {category.items?.map((item, itemIndex) => (
+                item && (
+                  <div key={itemIndex} className="flex items-center mb-4 bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div className="w-20 h-20 flex-shrink-0">
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        width={80}
+                        height={80}
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+                    <div className="flex-grow p-4">
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">{item.name}</span>
+                        <span className="text-gray-600">₹{item.price.toFixed(2)}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
+                )
               ))}
             </div>
           ))}
