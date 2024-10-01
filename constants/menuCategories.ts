@@ -17,12 +17,10 @@ export const menuCategories = [
         { name: "Fish Pakoda", price: 100, image: "/placeholder.svg?height=80&width=80" },
         { name: "Fish Finger", price: 130, image: "/placeholder.svg?height=80&width=80" },
         { name: "Fish Fry", price: 145, image: "/placeholder.svg?height=80&width=80" },
-        { name: "Fish Kabiraji", price: 150, image: "/placeholder.svg?height=80&width=80" },
-        { name: "Fish Cutlet", price: 150, image: "/placeholder.svg?height=80&width=80" },
+        { name: "Fish Kabiraji", price: 150, image: "/placeholder.svg?height=80&width=80" },,
         { name: "Chiken Pakoda", price: 150, image: "/placeholder.svg?height=80&width=80" },
         { name: "Chicken Chilli", price: 180, image: "/placeholder.svg?height=80&width=80" },
         { name: "Crispy Chicken", price: 180, image: "/placeholder.svg?height=80&width=80" },
-        { name: "Chicken Cutlet", price: 180, image: "/placeholder.svg?height=80&width=80" },
       ],
     },
     {
@@ -41,6 +39,7 @@ export const menuCategories = [
         { name: "Veg Soup", price: 70, image: "/placeholder.svg?height=80&width=80" },
         { name: "Sweet Corn Soup", price: 80, image: "/placeholder.svg?height=80&width=80" },
         { name: "Chicken Soup", price: 90, image: "/placeholder.svg?height=80&width=80" },
+        { name: "Chicken Sweet Corn Soup", price: 90, image: "/placeholder.svg?height=80&width=80" },
       ],
     },
     {
