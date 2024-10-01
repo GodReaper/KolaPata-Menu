@@ -39,7 +39,7 @@ export const menuCategories = [
         { name: "Veg Soup", price: 70, image: "/placeholder.svg?height=80&width=80" },
         { name: "Sweet Corn Soup", price: 80, image: "/placeholder.svg?height=80&width=80" },
         { name: "Chicken Soup", price: 90, image: "/placeholder.svg?height=80&width=80" },
-        { name: "Chicken Sweet Corn Soup", price: 90, image: "/placeholder.svg?height=80&width=80" },
+        { name: "Chicken Sweet Corn Soup", price: 95, image: "/placeholder.svg?height=80&width=80" },
       ],
     },
     {
